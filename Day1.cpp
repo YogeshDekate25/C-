@@ -16,6 +16,17 @@ int main()
 
     int amountleft = totalamount - amountpaid;
 
-    cout<<amountleft; 
+    cout<<"The amount left : "<<amountleft; 
+   // Applying if else conditions
+    if(amountleft>20){
+        cout<<"You can buy a ColdDrink\n";
+    }
+    else if(amountleft<=20){
+        cout<<"You can buy an Chocolate\n";
+    }
+    else{
+        cout<<"You can't buy More Things\n";
+    }
+  
     return 0;
 }
